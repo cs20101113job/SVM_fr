@@ -13,7 +13,7 @@ from  sklearn import  svm
 
 
 
-st.title("KNN/ SVM/ Mediapipe三種模型進行人臉偵測")
+st.title("SVM-支援向量機模型進行人臉偵測")
 save_folder = "KNN_SVM_Mediapipe_face_recognition_saved"
 os.makedirs(save_folder, exist_ok=True) # os.makedirs() 函數用於創建多層目錄
 uploaded_file = st.file_uploader("上傳圖片", type=["jpg", "png", "jpeg"])
